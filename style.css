@@ -1,0 +1,106 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*body 전체*/
+body {
+   margin: 0;
+   font-family: 'NanumSquare', sans-serif !important;
+   background: #202020;
+}
+
+/*맨 위 배너*/
+.top {
+  transition: 0.5s;
+  padding: 0;
+  width: screen;
+  height: 100px;
+  background: #000000;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
+
+/*좌우명*/
+.saying {
+ font-size: 30px;
+ color: #ffffff;
+ text-align: center;
+}
+
+/*이미지*/
+.proimg{
+  transition: ease 0.5s;
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+/*이미지
+.proimg:hover {
+ transition: ease 0.5s;
+ transform: scale(1.05);
+  }*/
+
+/*소개*/
+.middle {
+  width: 500px;
+  transition: 0.5s;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.middle:hover {
+  transition: 0.5s;
+  color: #ffffff;
+  background-color: #000000;
+  }
+
+/*맨 밑 배너*/
+.bottom{
+   padding: 0;
+   width: screen;
+   height: 20px;
+   background: #000000;
+   text-align: center;
+   margin-top: 20px;
+   color: white;
+}
+
+/*버튼 뭉치*/
+.ButtonStacks {
+ text-align: center;
+ color: white;
+}
+/*버튼*/
+.button {
+ transition: 0.5s;
+ background-color: #ffffff;
+ color: #000000;
+ border-radius: 10px;
+ border: 0;
+ padding: 10px;
+ font-size: 25px;
+}
+
+.button:hover {
+transition: 0.5s;
+background-color: #000000;
+color: #ffffff;
+}
+
+/*선*/
+.line{
+    padding: 0;
+    width: 60%;
+    height: 1px;
+    background: #202020;
+    margin: 0 auto;
+}
